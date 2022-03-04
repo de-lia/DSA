@@ -1,0 +1,12 @@
+start
+input array elements
+initialize small=large=arr[0]
+repeat from i=2 to n
+    if(arr[i] > large)
+        large = arr[i]
+            if(arr[i] < small)
+                small = arr[i]
+             endif;
+    endif;
+print small, print large;
+end

@@ -1,0 +1,14 @@
+Start
+initialize array of n integers;
+initialize a to zero;
+initialize z to arr.length-1;
+print original array;
+    while (a < z) {
+    initialize temp to arr[a];
+    arr[a] = arr[z]
+    arr[z] = temp;
+    increment a to a+1
+    z = z-1;
+  }
+end
+    
